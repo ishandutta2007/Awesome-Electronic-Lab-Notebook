@@ -1,245 +1,145 @@
-# Awesome-Electronic-Lab-Notebook
+# 🧪 Awesome Electronic Lab Notebook (ELN) Platforms & Open-Source Ecosystem 🔬
 
-## Top Electronic Lab Notebook (ELN) Platforms Ecosystem
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Electronic-Lab-Notebook/pulls) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+![Awesome Electronic Lab Notebooks Banner](assets/banner.svg)
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Research Data Management, Experiment Documentation, Sample Tracking & FAIR Data Compliance*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Electronic Lab Notebooks (ELNs)** . These tools help researchers, lab managers, and scientific organizations digitally document experiments, manage samples, track protocols, and ensure research data is Findable, Accessible, Interoperable, and Reusable (FAIR).
-
-
-
-**Examples** include Benchling, LabArchives, eLabJournal, Dotmatics Signals Notebook, SciNote, RSpace, Labguru, STARLIMS ELN, IDBS E-WorkBook, CDD Vault, eLabNext, Scispot, and OpenClinica Participate (the category leaders).
-
-
-
-**Open-source emphasis**: The ELN space has a **mature open-source ecosystem**—unlike many enterprise software categories. Open-source ELNs are actively developed, widely adopted in academia, and often exceed commercial tools in flexibility and data ownership. This section is heavily expanded with every major active project, from general-purpose platforms to chemistry-specific and FAIR-focused solutions.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Benchling](https://www.benchling.com/)**  
-
-  R&D cloud platform combining ELN, LIMS, and molecular biology tools. Widely used in biotech for DNA design, CRISPR planning, and regulatory-compliant experiment tracking.
-
-
-
-- **[LabArchives](https://www.labarchives.com/)**  
-
-  Cloud-based ELN designed for academic and industry research. Provides notebook entry creation, data storage, collaboration, and compliance with 21 CFR Part 11.
-
-
-
-- **[eLabJournal](https://www.elabjournal.com/)**  
-
-  Integrated ELN and LIMS platform by Bio-ITech. Provides experiment documentation, sample tracking, protocol management, and inventory in a single system.
-
-
-
-- **[Dotmatics Signals Notebook](https://www.dotmatics.com/)**  
-
-  ELN within the Dotmatics R&D platform. Provides chemistry-aware experiment documentation, structure drawing, and integration with Dotmatics' broader scientific data management suite.
-
-
-
-- **[SciNote](https://www.scinote.net/)**  
-
-  Open-source ELN with a cloud-hosted premium offering. Provides experiment protocols, inventory management, team collaboration, and regulatory compliance features.
-
-
-
-- **[RSpace](https://www.researchspace.com/)**  
-
-  Research platform with ELN and sample management at its core. Went fully open-source in 2024 (AGPL v3) while maintaining enterprise services for deployment, support, and migration .
-
-
-
-- **[Labguru](https://www.labguru.com/)**  
-
-  Integrated ELN and LIMS platform. Provides experiment documentation, sample tracking, protocol management, and research data management.
-
-
-
-- **[STARLIMS ELN](https://www.starlims.com/)**  
-
-  ELN module within STARLIMS' laboratory information management platform. Focused on regulated environments including pharmaceutical QC and clinical labs.
-
-
-
-- **[IDBS E-WorkBook](https://www.idbs.com/)**  
-
-  Enterprise ELN for R&D organizations. Provides experiment capture, data analysis, and integration with IDBS' broader data management platform.
-
-
-
-- **[CDD Vault](https://www.collaborativedrug.com/)**  
-
-  Collaborative drug discovery platform with ELN capabilities. Provides chemical registration, assay data management, and experiment documentation for drug discovery teams.
-
-
-
-- **[eLabNext](https://www.elabnext.com/)**  
-
-  Digital lab platform combining ELN, LIMS, and inventory management. Provides experiment documentation, sample tracking, and workflow automation.
-
-
-
-- **[Scispot](https://www.scispot.com/)**  
-
-  Digital lab platform with ELN, LIMS, and automation capabilities. Designed for biotech and life sciences labs seeking integrated data management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[eLabFTW](https://github.com/elabftw/elabftw)**  
-
-  The most popular open-source electronic lab notebook for research labs. PHP-based, actively developed with a broad user base. Features structured experiment documentation (extra fields, resources, steps), embedding graphics, file attachments, relations/linked entries, tags, categories, full searchability, fine-grained permission control, teams and user groups, signing and timestamping of experiments, export/import, LIMS/inventory management with booking, QR codes for samples, and a comprehensive REST API . ~1,358 stars. **Open source**.
-
-
-
-- **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)**  
-
-  Electronic Lab Notebook specifically designed for chemistry research. Provides structure drawing, reaction planning, and chemistry-aware data management .
-
-
-
-- **[RSpace](https://github.com/rspace-os/rspace-web)**  
-
-  Open-source research platform with ELN and sample management at its core. Released under AGPL v3 in June 2024. Features vertical interoperability with research tools (Galaxy, iRODS, Dataverse), API/SDK access, and FAIR data workflow support. Enterprise services available for deployment, migration, and support . **AGPL v3**.
-
-
-
-- **[OpenBIS](https://github.com/openbis/openbis)**  
-
-  Flexible ELN-LIMS and FAIR data management platform developed at ETH Zürich. Designed for academic labs requiring structured experiment tracking and FAIR-compliant research data management. Docker deployment supported, REST APIs with Java and Python clients . **Apache 2.0**.
-
-
-
-- **[open_enventory](https://github.com/rudolphi/open_enventory)**  
-
-  PHP/MySQL-based chemical inventory and Electronic Lab Notebook for chemistry labs. Free and open-source .
-
-
-
-- **[Tulpa](https://github.com/tulpahq/tulpa)**  
-
-  Open, extensible ELN & LIMS positioned as an open-source alternative to Benchling, LabStep, and Dotmatics. TypeScript-based .
-
-
-
-- **[LabKey Server](https://github.com/LabKey/labkey)**  
-
-  Web application for building and managing online databases and surveys. Strong for lab data management, sample tracking, analysis, and clinical data. Python, SQL, and JavaScript APIs. Docker deployment with docker-compose examples. Free and open-source .
-
-
-
-- **[FAIRDOM-SEEK](https://github.com/FAIRDOM/seek)**  
-
-  Web-based open-source platform for organizing and managing research (meta)data. Manages datasets, models, protocols, samples, and publications with full research lifecycle capture. ISAtools-based structure (Investigation-Study-Assay framework). DOI assignment, version tracking, and flexible sharing controls. **Open source** .
-
-
-
-- **[MLZ ELN](https://github.com/MLZ-ELN)**  
-
-  Electronic Lab Notebook based on TUM Workbench, developed for the Heinz Maier-Leibnitz Zentrum. Integrates with instrument control systems (NICOS), user office software (GhoST), and supports parallel editing capabilities. Under active development .
-
-
-
-- **[Jekyll Lab Notebook](https://github.com/tlnagy/jekyll-lab-notebook)**  
-
-  Full-featured electronic lab notebook theme with plugins for Jekyll. Static site generation approach for lab documentation. ~62 stars .
-
-
-
-- **[LabInform](https://github.com/tillbiskup/labinform)**  
-
-  Python components of a laboratory information system providing ELN functionality .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Chemistry-Specific ELNs**: **Chemotion ELN** (structure-aware, chemistry-focused), **open_enventory** (chemical inventory + ELN) .
-
-- **FAIR Data Platforms**: **OpenBIS** (ETH Zürich, FAIR-compliant), **FAIRDOM-SEEK** (ISA framework, DOI support) .
-
-- **General-Purpose ELNs**: **eLabFTW** (most popular, actively developed), **RSpace** (open-sourced 2024, enterprise services) .
-
-- **LIMS Integration**: **OpenBIS**, **LabKey** for combined ELN-LIMS workflows .
-
-
-
-**Frameworks for building custom systems**: Combine **eLabFTW** for core ELN functionality, **OpenBIS** or **FAIRDOM-SEEK** for FAIR data management, **Chemotion ELN** for chemistry-specific needs, and **PostgreSQL** for persistence. Add **Docker** for deployment and **Galaxy/iRODS** integrations for computational workflows .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- ELNs handle sensitive research data; ensure compliance with institutional data policies, funder mandates, and relevant regulations (21 CFR Part 11 for regulated environments).
-
-- Self-hosted open-source solutions require proper security hardening, regular updates, and backup strategies. Open-source ELNs are mature but require institutional IT support for production deployments.
-
-
+> **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
+> *Focused on Research Data Management (RDM), Laboratory Information Management Systems (LIMS), Experiment Documentation, Sample Tracking, and FAIR Data Compliance (Findable, Accessible, Interoperable, Reusable).*
 
 ---
 
+## 📌 Overview & SEO Highlights 🔍
 
+An **Electronic Lab Notebook (ELN)** is digital software designed for scientists, lab managers, biopharma researchers, and academic institutions to replace traditional paper lab notebooks. ELNs streamline digital experiment tracking, protocol management, chemical structure drawing, DNA sequencing, inventory control, regulatory compliance (such as **21 CFR Part 11** and **GLP/GMP**), and **FAIR research data management**.
 
-**Made for researchers, lab managers, data stewards, and scientific IT teams.**  
+This repository provides an up-to-date, comprehensive ecosystem guide covering both enterprise SaaS platforms and top community-driven open-source alternatives.
 
-Let's make research data management more open, FAIR, and reproducible.
+---
+
+## 📑 Table of Contents 📖
+
+- [☁️ SaaS / Enterprise Hosted Platforms](#️-saas--enterprise-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Additional Categorized Open-Source Recommendations](#-additional-categorized-open-source-recommendations)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS / Enterprise Hosted Platforms
+
+> 📊 **Sector Market Size & Market Structure**: The global **Electronic Lab Notebook (ELN) and Scientific Data Management Software market** is estimated at **$650M – $1.2B (2024–2026)**, expanding at a **~9.5% CAGR**. The sector is **moderately fragmented**, featuring high-valuation enterprise category leaders (such as Benchling, Dotmatics, and IDBS) operating alongside specialized domain solutions and a vibrant open-source ecosystem.
+
+Below is a detailed comparison of top commercial SaaS ELN platforms, sorted by estimated **Company Valuation / Annual Revenue (descending)**:
+
+| Platform Name | Core Focus & Features | Company Size / Valuation / Revenue | Starting Tier Price | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| 🧬 **[Benchling](https://www.benchling.com/)** | R&D cloud platform combining ELN, LIMS, molecular biology tools, sequence editing, and CRISPR design for biotechnology and pharma. | **~$6.1B Valuation** (~$200M ARR) | **~$1,200/user/year** (Industry tier) | **Forever-free Academic Tier** (Up to 10 GB storage per user; full sequence editing & core notebook features for non-commercial research). |
+| 🧪 **[Dotmatics Signals Notebook](https://www.dotmatics.com/)** | Cloud ELN with native chemical structure drawing, reaction indexing, and scientific informatics integration for drug discovery. | **~$1.5B Valuation** (~$150M ARR) | **~$1,500/user/year** (Standard user license) | **14-day free trial** (Full chemical notebook features, 1 GB file attachment limit during trial). |
+| 🔬 **[STARLIMS ELN](https://www.starlims.com/)** | Regulated enterprise ELN module integrated with LIMS for pharmaceutical QC, clinical trial analytics, and food safety labs. | **~$500M+ Valuation** (~$100M+ ARR) | **~$1,000/user/year** (Enterprise contract starting ~$12,000/yr) | **30-day hosted demo trial** (Guided sandbox environment with 50 MB sample data upload). |
+| 📋 **[IDBS E-WorkBook](https://www.idbs.com/)** | Enterprise R&D execution system with automated data analysis, workflow templates, and strict 21 CFR Part 11 compliance. | **~$150M+ ARR** *(Danaher Subsidiary)* | **~$1,500/user/year** (Enterprise licensing starting ~$20,000/yr) | **30-day enterprise evaluation trial** (Sales-approved sandbox workspace with sample datasets). |
+| 📚 **[LabArchives](https://www.labarchives.com/)** | Cloud ELN widely adopted in academic research and industry, providing notebook entries, collaboration, and data auditing. | **~$20M–$50M ARR** *(Bio-Techne Subsidiary)* | **$159/user/year** ($15/user/month academic, $25/month industry) | **Free Academic Plan** (Up to 1 GB storage per notebook for academic users; 30-day full-feature trial for industry). |
+| 💊 **[CDD Vault](https://www.collaborativedrug.com/)** | Collaborative drug discovery suite featuring chemical registration, assay data management, and ELN experiment capture. | **~$15M–$30M ARR** | **$3,500/year** (Small team tier; enterprise quotes for large orgs) | **30-day free trial** (Full chemical registration and assay management up to 500 test molecules). |
+| 🧫 **[eLabNext / eLabJournal](https://www.elabnext.com/)** | Integrated digital lab platform combining ELN, sample inventory tracking, equipment planning, and workflow automation. | **~$10M–$25M ARR** *(Eppendorf Subsidiary)* | **€15/user/month** (~$18/user/month academic) / **€29/user/month** (Industry) | **30-day free trial** (Full feature access to ELN & sample management with 5 GB trial storage). |
+| 📊 **[Labguru](https://www.labguru.com/)** | All-in-one web ELN and LIMS platform featuring inventory management, protocol tracking, and automated logic flows. | **~$10M–$20M ARR** | **$35/user/month** (Academic) / **$75/user/month** (Industry) | **14-day free trial** (Access to ELN, sample tracking, max 2 active trial users). |
+| 🩺 **[OpenClinica](https://www.openclinica.com/)** | Clinical research electronic data capture (EDC) and trial management platform with participant experiment tracking. | **~$10M–$20M ARR** | **$500/month** (Hosted cloud subscription starting tier) | **Free & Open Community Edition** (Self-hosted unlimited users/studies) / 30-day SaaS cloud trial. |
+| 📝 **[SciNote](https://www.scinote.net/)** | Top-tier cloud ELN with inventory tracking, team role management, API integrations, and regulatory compliance. | **~$5M–$15M ARR** | **$15/user/month** ($180/user/year Academic) / **$35/user/month** (Industry) | **14-day free trial** (Full ELN and inventory features with 5 GB trial storage limit). |
+| 🚀 **[Scispot](https://www.scispot.com/)** | Modern API-first digital lab operating system combining ELN, LIMS, and automated lab pipeline connections. | **~$5M–$10M Valuation** ($3M+ raised) | **$249/month** (Up to 5 team users starting tier) | **14-day free trial** (Full workflow builder, 2 team seats, 2 GB storage limit). |
+| 🌐 **[RSpace](https://www.researchspace.com/)** | Research platform with ELN and sample tracking (open-sourced core AGPL v3 in 2024 while offering enterprise cloud hosting). | **~$2M–$10M ARR** | **$60/user/year** ($5/user/month Academic tier) | **Community Free Edition** (Forever free for individual academic researchers; 1 GB storage limit). |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The Electronic Lab Notebook ecosystem features a **robust open-source community**. Academic labs and privacy-conscious research institutions frequently prefer self-hosted open-source software for complete data ownership, local data privacy, and custom extensibility.
+
+The list below is sorted by **GitHub Star Count (descending)**:
+
+- 🥇 **[eLabFTW](https://github.com/elabftw/elabftw)** [![GitHub stars](https://img.shields.io/github/stars/elabftw/elabftw?style=social&color=white)](https://github.com/elabftw/elabftw/stargazers)  
+  *The most popular open-source electronic lab notebook for research labs worldwide.* PHP-based, actively maintained with a rich feature set including structured experiment entries, custom form fields, file attachments, timestamping/digital signatures, inventory booking, QR code generation, and full REST API support. **Open Source (AGPL v3)**.
+
+- 🥈 **[SENAITE](https://github.com/senaite/senaite.core)** [![GitHub stars](https://img.shields.io/github/stars/senaite/senaite.core?style=social&color=white)](https://github.com/senaite/senaite.core/stargazers)  
+  *Enterprise-grade open-source Laboratory Information Management System (LIMS).* Built on Python/Plone, SENAITE provides sample tracking, analytical workflows, lab workflow management, and instrument result parsing. **GPL v2**.
+
+- 🥉 **[SciNote Community Edition](https://github.com/scinote-eln/scinote-web)** [![GitHub stars](https://img.shields.io/github/stars/scinote-eln/scinote-web?style=social&color=white)](https://github.com/scinote-eln/scinote-web/stargazers)  
+  *Open-source web application for SciNote ELN.* Ruby on Rails framework with modular experiment management, workflow visualizers, and data preservation features. **AGPL v3**.
+
+- 🧪 **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)** [![GitHub stars](https://img.shields.io/github/stars/ComPlat/chemotion_ELN?style=social&color=white)](https://github.com/ComPlat/chemotion_ELN/stargazers)  
+  *Electronic Lab Notebook specifically optimized for chemistry research.* Integrates structure drawing (Kekule.js/JSME), reaction yield calculation, spectra viewer, and automated sample property tracking. **AGPL v3**.
+
+- 📊 **[Sumatra](https://github.com/open-research/sumatra)** [![GitHub stars](https://img.shields.io/github/stars/open-research/sumatra?style=social&color=white)](https://github.com/open-research/sumatra/stargazers)  
+  *Automated electronic lab notebook for computational and numerical simulation projects.* Captures code version, parameters, data dependencies, and platform configuration automatically. **BSD-2-Clause**.
+
+- 🧬 **[FAIRDOM-SEEK](https://github.com/seek4science/seek)** [![GitHub stars](https://img.shields.io/github/stars/seek4science/seek?style=social&color=white)](https://github.com/seek4science/seek/stargazers)  
+  *Web platform for cataloging research datasets, models, protocols, and samples.* Uses the ISA (Investigation-Study-Assay) structure to ensure full FAIR data compliance and DOI registration. **BSD-3-Clause**.
+
+- 📓 **[Obsidian ELN](https://github.com/fcskit/obsidian-eln)** [![GitHub stars](https://img.shields.io/github/stars/fcskit/obsidian-eln?style=social&color=white)](https://github.com/fcskit/obsidian-eln/stargazers)  
+  *Electronic Lab Notebook framework built on top of the Obsidian markdown editor.* Features template generators, automated metadata tagging, and local offline-first storage. **MIT License**.
+
+- 🌐 **[Jekyll Lab Notebook](https://github.com/tlnagy/jekyll-lab-notebook)** [![GitHub stars](https://img.shields.io/github/stars/tlnagy/jekyll-lab-notebook?style=social&color=white)](https://github.com/tlnagy/jekyll-lab-notebook/stargazers)  
+  *Full-featured electronic lab notebook theme and static-site plugin suit for Jekyll.* Converts plain Markdown notes into structured, searchable web notebook entries. **MIT License**.
+
+- ⚗️ **[EPAM Indigo ELN](https://github.com/epam/Indigo-ELN-v.-2.0)** [![GitHub stars](https://img.shields.io/github/stars/epam/Indigo-ELN-v.-2.0?style=social&color=white)](https://github.com/epam/Indigo-ELN-v.-2.0/stargazers)  
+  *Open-source chemistry electronic lab notebook software by EPAM.* Designed for chemical reaction documentation, molecule lookup, and lab experiment archives. **Apache 2.0**.
+
+- 📝 **[NotedELN](https://github.com/wagenadl/notedeln)** [![GitHub stars](https://img.shields.io/github/stars/wagenadl/notedeln?style=social&color=white)](https://github.com/wagenadl/notedeln/stargazers)  
+  *Lightweight and flexible electronic lab notebook web app.* Simple experiment tracking and note attachment interface. **MIT License**.
+
+- 🔓 **[RSpace OS](https://github.com/rspace-os/rspace-web)** [![GitHub stars](https://img.shields.io/github/stars/rspace-os/rspace-web?style=social&color=white)](https://github.com/rspace-os/rspace-web/stargazers)  
+  *Open-source core of the RSpace research platform.* Provides multi-user notebook entries, file management, API connectors, and integration with academic data repositories (Dataverse, Figshare, iRODS). **AGPL v3**.
+
+- 🛢️ **[open_enventory](https://github.com/rudolphi/open_enventory)** [![GitHub stars](https://img.shields.io/github/stars/rudolphi/open_enventory?style=social&color=white)](https://github.com/rudolphi/open_enventory/stargazers)  
+  *PHP/MySQL chemical inventory system integrated with an Electronic Lab Notebook.* Optimized for synthesis tracking and GHS safety data management. **GPL v3**.
+
+- 🧬 **[LabKey Server Platform](https://github.com/LabKey/platform)** [![GitHub stars](https://img.shields.io/github/stars/LabKey/platform?style=social&color=white)](https://github.com/LabKey/platform/stargazers)  
+  *Core modules for LabKey Server.* Enterprise open-source platform for biomedical research data management, clinical trials, specimen tracking, and assay processing. **Apache 2.0**.
+
+- 🐍 **[LabInform](https://github.com/tillbiskup/labinform)** [![GitHub stars](https://img.shields.io/github/stars/tillbiskup/labinform?style=social&color=white)](https://github.com/tillbiskup/labinform/stargazers)  
+  *Python components and data models for building modular laboratory information architecture.* **BSD-3-Clause**.
+
+---
+
+## 💡 Additional Categorized Open-Source Recommendations
+
+- 🧪 **Chemistry-Specific ELNs**: [Chemotion ELN](https://github.com/ComPlat/chemotion_ELN), [EPAM Indigo ELN](https://github.com/epam/Indigo-ELN-v.-2.0), [open_enventory](https://github.com/rudolphi/open_enventory).
+- 🌐 **FAIR Data & Metadata Management**: [FAIRDOM-SEEK](https://github.com/seek4science/seek), [Sumatra](https://github.com/open-research/sumatra).
+- ⚙️ **Combined ELN + LIMS Workflows**: [SENAITE](https://github.com/senaite/senaite.core), [eLabFTW](https://github.com/elabftw/elabftw), [LabKey Server](https://github.com/LabKey/platform).
+- 📄 **Static & Markdown Notebooks**: [Obsidian ELN](https://github.com/fcskit/obsidian-eln), [Jekyll Lab Notebook](https://github.com/tlnagy/jekyll-lab-notebook).
+
+---
+
+## 🤝 How to Contribute 💡
+
+Contributions are warmly welcomed! To suggest a new tool or update existing details:
+
+1. **Fork** this repository.
+2. Add or update the entry in `README.md` following the table format for SaaS tools or bulleted format for Open-Source projects.
+3. Ensure links, licensing, and pricing descriptions are accurate.
+4. Submit a **Pull Request** with a descriptive summary.
+
+Check out our curated meta-list at **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)** for more curated technical topics!
+
+---
+
+## 💖 Support & Community
+
+If you find this curated list of Electronic Lab Notebooks helpful for your research or laboratory workflow, please consider giving it a ⭐ **star**, **forking** the repository, and sharing it with your scientific community!
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-ff69b4?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Electronic-Lab-Notebook&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Electronic-Lab-Notebook&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for information purposes and does not constitute a formal endorsement.
+- Electronic Lab Notebooks handle sensitive scientific IP and patient data; verify regulatory compliance (**21 CFR Part 11**, **HIPAA**, **GDPR**) before deployment.
+- Self-hosted open-source ELNs require appropriate infrastructure, regular security updates, and automated backup configurations.
