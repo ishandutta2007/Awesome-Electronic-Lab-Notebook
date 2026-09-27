@@ -56,7 +56,7 @@ Below is a detailed comparison of top commercial SaaS ELN platforms, sorted by e
 
 The Electronic Lab Notebook ecosystem features a **robust open-source community**. Academic labs and privacy-conscious research institutions frequently prefer self-hosted open-source software for complete data ownership, local data privacy, and custom extensibility.
 
-The list below is sorted by **GitHub Stars_Count (descending)**:
+The list below is sorted by **GitHub_Stars_Count (descending)**:
 
 - 🥇 **[eLabFTW](https://github.com/elabftw/elabftw)** [![GitHub_Stars](https://img.shields.io/github/stars/elabftw/elabftw?style=social&color=white)](https://github.com/elabftw/elabftw/stargazers)  
   *The most popular open-source electronic lab notebook for research labs worldwide.* PHP-based, actively maintained with a rich feature set including structured experiment entries, custom form fields, file attachments, timestamping/digital signatures, inventory booking, QR code generation, and full REST API support. **Open Source (AGPL v3)**.
