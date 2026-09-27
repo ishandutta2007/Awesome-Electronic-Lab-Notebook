@@ -56,48 +56,48 @@ Below is a detailed comparison of top commercial SaaS ELN platforms, sorted by e
 
 The Electronic Lab Notebook ecosystem features a **robust open-source community**. Academic labs and privacy-conscious research institutions frequently prefer self-hosted open-source software for complete data ownership, local data privacy, and custom extensibility.
 
-The list below is sorted by **GitHub Star Count (descending)**:
+The list below is sorted by **GitHub Stars_Count (descending)**:
 
-- 🥇 **[eLabFTW](https://github.com/elabftw/elabftw)** [![GitHub stars](https://img.shields.io/github/stars/elabftw/elabftw?style=social&color=white)](https://github.com/elabftw/elabftw/stargazers)  
+- 🥇 **[eLabFTW](https://github.com/elabftw/elabftw)** [![GitHub_Stars](https://img.shields.io/github/stars/elabftw/elabftw?style=social&color=white)](https://github.com/elabftw/elabftw/stargazers)  
   *The most popular open-source electronic lab notebook for research labs worldwide.* PHP-based, actively maintained with a rich feature set including structured experiment entries, custom form fields, file attachments, timestamping/digital signatures, inventory booking, QR code generation, and full REST API support. **Open Source (AGPL v3)**.
 
-- 🥈 **[SENAITE](https://github.com/senaite/senaite.core)** [![GitHub stars](https://img.shields.io/github/stars/senaite/senaite.core?style=social&color=white)](https://github.com/senaite/senaite.core/stargazers)  
+- 🥈 **[SENAITE](https://github.com/senaite/senaite.core)** [![GitHub_Stars](https://img.shields.io/github/stars/senaite/senaite.core?style=social&color=white)](https://github.com/senaite/senaite.core/stargazers)  
   *Enterprise-grade open-source Laboratory Information Management System (LIMS).* Built on Python/Plone, SENAITE provides sample tracking, analytical workflows, lab workflow management, and instrument result parsing. **GPL v2**.
 
-- 🥉 **[SciNote Community Edition](https://github.com/scinote-eln/scinote-web)** [![GitHub stars](https://img.shields.io/github/stars/scinote-eln/scinote-web?style=social&color=white)](https://github.com/scinote-eln/scinote-web/stargazers)  
+- 🥉 **[SciNote Community Edition](https://github.com/scinote-eln/scinote-web)** [![GitHub_Stars](https://img.shields.io/github/stars/scinote-eln/scinote-web?style=social&color=white)](https://github.com/scinote-eln/scinote-web/stargazers)  
   *Open-source web application for SciNote ELN.* Ruby on Rails framework with modular experiment management, workflow visualizers, and data preservation features. **AGPL v3**.
 
-- 🧪 **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)** [![GitHub stars](https://img.shields.io/github/stars/ComPlat/chemotion_ELN?style=social&color=white)](https://github.com/ComPlat/chemotion_ELN/stargazers)  
+- 🧪 **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)** [![GitHub_Stars](https://img.shields.io/github/stars/ComPlat/chemotion_ELN?style=social&color=white)](https://github.com/ComPlat/chemotion_ELN/stargazers)  
   *Electronic Lab Notebook specifically optimized for chemistry research.* Integrates structure drawing (Kekule.js/JSME), reaction yield calculation, spectra viewer, and automated sample property tracking. **AGPL v3**.
 
-- 📊 **[Sumatra](https://github.com/open-research/sumatra)** [![GitHub stars](https://img.shields.io/github/stars/open-research/sumatra?style=social&color=white)](https://github.com/open-research/sumatra/stargazers)  
+- 📊 **[Sumatra](https://github.com/open-research/sumatra)** [![GitHub_Stars](https://img.shields.io/github/stars/open-research/sumatra?style=social&color=white)](https://github.com/open-research/sumatra/stargazers)  
   *Automated electronic lab notebook for computational and numerical simulation projects.* Captures code version, parameters, data dependencies, and platform configuration automatically. **BSD-2-Clause**.
 
-- 🧬 **[FAIRDOM-SEEK](https://github.com/seek4science/seek)** [![GitHub stars](https://img.shields.io/github/stars/seek4science/seek?style=social&color=white)](https://github.com/seek4science/seek/stargazers)  
+- 🧬 **[FAIRDOM-SEEK](https://github.com/seek4science/seek)** [![GitHub_Stars](https://img.shields.io/github/stars/seek4science/seek?style=social&color=white)](https://github.com/seek4science/seek/stargazers)  
   *Web platform for cataloging research datasets, models, protocols, and samples.* Uses the ISA (Investigation-Study-Assay) structure to ensure full FAIR data compliance and DOI registration. **BSD-3-Clause**.
 
-- 📓 **[Obsidian ELN](https://github.com/fcskit/obsidian-eln)** [![GitHub stars](https://img.shields.io/github/stars/fcskit/obsidian-eln?style=social&color=white)](https://github.com/fcskit/obsidian-eln/stargazers)  
+- 📓 **[Obsidian ELN](https://github.com/fcskit/obsidian-eln)** [![GitHub_Stars](https://img.shields.io/github/stars/fcskit/obsidian-eln?style=social&color=white)](https://github.com/fcskit/obsidian-eln/stargazers)  
   *Electronic Lab Notebook framework built on top of the Obsidian markdown editor.* Features template generators, automated metadata tagging, and local offline-first storage. **MIT License**.
 
-- 🌐 **[Jekyll Lab Notebook](https://github.com/tlnagy/jekyll-lab-notebook)** [![GitHub stars](https://img.shields.io/github/stars/tlnagy/jekyll-lab-notebook?style=social&color=white)](https://github.com/tlnagy/jekyll-lab-notebook/stargazers)  
+- 🌐 **[Jekyll Lab Notebook](https://github.com/tlnagy/jekyll-lab-notebook)** [![GitHub_Stars](https://img.shields.io/github/stars/tlnagy/jekyll-lab-notebook?style=social&color=white)](https://github.com/tlnagy/jekyll-lab-notebook/stargazers)  
   *Full-featured electronic lab notebook theme and static-site plugin suit for Jekyll.* Converts plain Markdown notes into structured, searchable web notebook entries. **MIT License**.
 
-- ⚗️ **[EPAM Indigo ELN](https://github.com/epam/Indigo-ELN-v.-2.0)** [![GitHub stars](https://img.shields.io/github/stars/epam/Indigo-ELN-v.-2.0?style=social&color=white)](https://github.com/epam/Indigo-ELN-v.-2.0/stargazers)  
+- ⚗️ **[EPAM Indigo ELN](https://github.com/epam/Indigo-ELN-v.-2.0)** [![GitHub_Stars](https://img.shields.io/github/stars/epam/Indigo-ELN-v.-2.0?style=social&color=white)](https://github.com/epam/Indigo-ELN-v.-2.0/stargazers)  
   *Open-source chemistry electronic lab notebook software by EPAM.* Designed for chemical reaction documentation, molecule lookup, and lab experiment archives. **Apache 2.0**.
 
-- 📝 **[NotedELN](https://github.com/wagenadl/notedeln)** [![GitHub stars](https://img.shields.io/github/stars/wagenadl/notedeln?style=social&color=white)](https://github.com/wagenadl/notedeln/stargazers)  
+- 📝 **[NotedELN](https://github.com/wagenadl/notedeln)** [![GitHub_Stars](https://img.shields.io/github/stars/wagenadl/notedeln?style=social&color=white)](https://github.com/wagenadl/notedeln/stargazers)  
   *Lightweight and flexible electronic lab notebook web app.* Simple experiment tracking and note attachment interface. **MIT License**.
 
-- 🔓 **[RSpace OS](https://github.com/rspace-os/rspace-web)** [![GitHub stars](https://img.shields.io/github/stars/rspace-os/rspace-web?style=social&color=white)](https://github.com/rspace-os/rspace-web/stargazers)  
+- 🔓 **[RSpace OS](https://github.com/rspace-os/rspace-web)** [![GitHub_Stars](https://img.shields.io/github/stars/rspace-os/rspace-web?style=social&color=white)](https://github.com/rspace-os/rspace-web/stargazers)  
   *Open-source core of the RSpace research platform.* Provides multi-user notebook entries, file management, API connectors, and integration with academic data repositories (Dataverse, Figshare, iRODS). **AGPL v3**.
 
-- 🛢️ **[open_enventory](https://github.com/rudolphi/open_enventory)** [![GitHub stars](https://img.shields.io/github/stars/rudolphi/open_enventory?style=social&color=white)](https://github.com/rudolphi/open_enventory/stargazers)  
+- 🛢️ **[open_enventory](https://github.com/rudolphi/open_enventory)** [![GitHub_Stars](https://img.shields.io/github/stars/rudolphi/open_enventory?style=social&color=white)](https://github.com/rudolphi/open_enventory/stargazers)  
   *PHP/MySQL chemical inventory system integrated with an Electronic Lab Notebook.* Optimized for synthesis tracking and GHS safety data management. **GPL v3**.
 
-- 🧬 **[LabKey Server Platform](https://github.com/LabKey/platform)** [![GitHub stars](https://img.shields.io/github/stars/LabKey/platform?style=social&color=white)](https://github.com/LabKey/platform/stargazers)  
+- 🧬 **[LabKey Server Platform](https://github.com/LabKey/platform)** [![GitHub_Stars](https://img.shields.io/github/stars/LabKey/platform?style=social&color=white)](https://github.com/LabKey/platform/stargazers)  
   *Core modules for LabKey Server.* Enterprise open-source platform for biomedical research data management, clinical trials, specimen tracking, and assay processing. **Apache 2.0**.
 
-- 🐍 **[LabInform](https://github.com/tillbiskup/labinform)** [![GitHub stars](https://img.shields.io/github/stars/tillbiskup/labinform?style=social&color=white)](https://github.com/tillbiskup/labinform/stargazers)  
+- 🐍 **[LabInform](https://github.com/tillbiskup/labinform)** [![GitHub_Stars](https://img.shields.io/github/stars/tillbiskup/labinform?style=social&color=white)](https://github.com/tillbiskup/labinform/stargazers)  
   *Python components and data models for building modular laboratory information architecture.* **BSD-3-Clause**.
 
 ---
